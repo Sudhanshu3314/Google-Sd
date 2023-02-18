@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Kdam+Thmor+Pro&family=Lato:ital,wght@1,900&family=Open+Sans:wght@300&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg">
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="googlestyle.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a></li>
+            <li><a href="https://photos.google.com/?tab=iq&pageId=none">Images</a></li>
+            <li><span style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#myModal"
+                    class="material-symbols-outlined">apps</span></li>
+            <li><a href="https://whytedevil.netlify.app/" target="_blank"><img src="https://whytedevil.netlify.app/fauji.jpg" alt="Sudhanshu photos"
+                    title="Owner Of Tech tank (Sudhanshu Barnwal)"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="symbol">
+        <span class="blue">G</span><span class="red">o</span><span class="orange">o</span><span
+            class="blue">g</span><span class="green">l</span><span class="red">e</span>
+    </div>
+
+    <center class="googleSearch">
+        <div class="SearchBar">
+            <label for="input">
+                <div class="googleImg" style="padding-right: 0px;">
+                    <img class="googlesym" id="SearchBtn"
+                        onclick="javascript:window.open( 'https://www.google.com/search?q=' + document.getElementById('input').value  )"
+                        src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png"
+                        alt="Search symbol">
+                </div>
+            </label>
+
+            <div class="googleImg" id="searchInput">
+                <input title="Search" style="border:none;" autocomplete="off" autofocus spellcheck="false" type="search"
+                    name="" id="input">
+            </div>
+
+            <div class="googleImg"><img class="googlesym" style="height:25px;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
+                    alt="Google Mic" title="Search By Voice"></div>
+
+            <div class="googleImg"><img class="googlesym" src="https://www.computerhope.com/jargon/g/google-lens.png"
+                    alt="Google lens" title="Search By Image"></div>
+        </div>
+    </center>
+
+    <div class="btn">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+
+    <div class="lang">
+        <center>
+            <span>Google Offered in : </span>
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">മലയാളം</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+        </center>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h2 class="modal-title"><span class="blue">G</span><span class="red">o</span><span
+                            class="orange">o</span><span class="blue">g</span><span class="green">l</span><span
+                            class="red">e</span> Applications</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div class="google-app">
+
+                        <div class="app">
+                            <a href="#"><img style="border-radius: 100%;" src="https://whytedevil.netlify.app/fauji.jpg"
+                                    alt="Account"></a>
+                            <h5>Account</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="#"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"
+                                    alt="Search"></a>
+                            <h5>Search</center>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.co.in/maps/"><img
+                                    src="https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA"
+                                    alt="Maps"></a>
+                            <h5>Maps</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.youtube.com/"><img src="https://www.webwise.ie/wp-content/uploads/2015/10/youtube.png"
+                                    alt="Youtube"></a>
+                            <h5>Youtube</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://play.google.com/store/"><img
+                                    src="https://pbs.twimg.com/profile_images/1551615678418788353/F49R5U9C_400x400.png"
+                                    alt="Play"></a>
+                            <h5>Play</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://news.google.com/"><img
+                                    src="https://lh3.googleusercontent.com//J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=rj-w300-h300-l95-c0xffffff"
+                                    alt="News"></a>
+                            <h5>News</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://mail.google.com/"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png"
+                                    alt="Gmail"></a>
+                            <h5>Gmail</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://meet.google.com/"><img src="https://www.brandeis.edu/its/_files/google-meet-logo.png"
+                                    alt="Meet"></a>
+                            <h5>Meet</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://chat.google.com/"><img
+                                    src="https://play-lh.googleusercontent.com/cF_oWC9Io_I9smEBhjhUHkOO6vX5wMbZJgFpGny4MkMMtz25iIJEh2wASdbbEN7jseAx"
+                                    alt="Chat"></a>
+                            <h5>Chat</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://support.google.com/answer/2521249?hl=en"><img
+                                    src="https://downloadr2.apkmirror.com/wp-content/uploads/2023/02/80/63ee16b7b29f7.png"
+                                    alt="Contacts"></a>
+                            <h5>Contacts</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/intl/en_in/drive/"><img
+                                    src="https://play-lh.googleusercontent.com/t-juVwXA8lDAk8uQ2L6d6K83jpgQoqmK1icB_l9yvhIAQ2QT_1XbRwg5IpY08906qEw"
+                                    alt="Drive"></a>
+                            <h5>Drive</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://calendar.google.com/"><img
+                                    src="https://play-lh.googleusercontent.com/Jsbb0EeesKUbDTl3UyDKO6sNz45RCMh7gnoI6giQcQz1f5Mj0J4TRh7Psyu53vShh-qm"
+                                    alt="Calendar"></a>
+                            <h5>Calendar</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://translate.google.co.in/"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/2048px-Google_Translate_logo.svg.png"
+                                    alt="Translate"></a>
+                            <h5>Translate</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://photos.google.com/"><img
+                                    src="https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA"
+                                    alt="Photos"></a>
+                            <h5>Photos</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://myadcenter.google.com/"><img
+                                    src="https://www.gstatic.com/myadcenter/logo/3c37071161daf097d22c76f6a4a2a61d.svg"
+                                    alt="My Ads Center"></a>
+                            <h5>My Ads<br>Center</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://shopping.google.com/"><img
+                                    src="https://downloadr2.apkmirror.com/wp-content/uploads/2021/04/86/607076040a9fa.png"
+                                    alt="Shopping"></a>
+                            <h5>Shopping</h5>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="google-app">
+
+                        <div class="app">
+                            <a href="https://www.google.com/finance/"><img src="https://ssl.gstatic.com/finance/favicon/finance_496x496.png"
+                                    alt="Finance"></a>
+                            <h5>Finance</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/docs/about/"><img
+                                    src="https://play-lh.googleusercontent.com/emmbClh_hm0WpWZqJ0X59B8Pz1mKoB9HVLkYMktxhGE6_-30SdGoa-BmYW73RJ8MGZQ"
+                                    alt="Docs"></a>
+                            <h5>Docs</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/sheets/about/"><img
+                                    src="https://lh3.ggpht.com/e3oZddUHSC6EcnxC80rl_6HbY94sM63dn6KrEXJ-C4GIUN-t1XM0uYA_WUwyhbIHmVMH=w300"
+                                    alt="Sheet"></a>
+                            <h5>Sheets</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/slides/about/"><img
+                                    src="https://lh3.ggpht.com/9rwhkrvgiLhXVBeKtScn1jlenYk-4k3Wyqt1PsbUr9jhGew0Gt1w9xbwO4oePPd5yOM=w300"
+                                    alt="Sldes"></a>
+                            <h5>Slides</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://books.google.co.in/"><img
+                                    src="https://purepng.com/public/uploads/large/purepng.com-play-books-icon-android-lollipopsymbolsiconsgooglegoogle-iconsandroid-lollipoplollipop-iconsandroid-50-7215225972313gef0.png"
+                                    alt="Books"></a>
+                            <h5>Books</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.blogger.com/dashboard/reading"><img style="border-radius: 10px;"
+                                    src="https://play-lh.googleusercontent.com/cWG9-bk2_zLdKsN9vsYEdbCReVfzgXU6FeHUmLI8a24FoZ05TpOLYXInCQ278FTwCw"
+                                    alt="Blogger"></a>
+                            <h5>Blogger</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://mail.google.com/chat/u/0/#chat/welcome"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Hangouts_icon.svg/1200px-Hangouts_icon.svg.png"
+                                    alt="Hangouts"></a>
+                            <h5>Hangouts</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://keep.google.com/u/0/"><img
+                                    src="https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5"
+                                    alt="Keep"></a>
+                            <h5>Keep</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://jamboard.google.com/"><img src="https://cdn-icons-png.flaticon.com/512/2965/2965289.png"
+                                    alt="Jamboard"></a>
+                            <h5>Jamboard</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://classroom.google.com/u/0/"><img style="border-radius: 10px;"
+                                    src="https://play-lh.googleusercontent.com/w0s3au7cWptVf648ChCUP7sW6uzdwGFTSTenE178Tz87K_w1P1sFwI6h1CLZUlC2Ug"
+                                    alt="Classroom"></a>
+                            <h5>Classroom</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://earth.google.com/web/"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Google_Earth_icon.svg/1200px-Google_Earth_icon.svg.png"
+                                    alt="Earth"></a>
+                            <h5>Earth</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.co.in/save"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEX/xRfuqQ/////6wB//wwD/wQD/4JftpQD/02v/0Ff/xA7/0V////3/vwD/+ev/4Jr/67//yCz/+vD/9N7/57P/5Kn/6bn/y0b/78z1zIr/1nj/3pH/1XP/yjf/8tX/2oH/24j1z5Tlm6ARAAACDUlEQVRoge3XbZOCIBAAYPMWSxTx5ZCuMrv//yePLqQ0MDCcuZthPzTTyzxDK8suUeQtPjbT8GcHPOABD3jAAx7wgFvgGAAQEi/YN44B8QNlZcmOp4qATxyjjhV5LCM/9zDHu+FQlfE46h6Zk+OEk0v8HOfKuHgXnOw1tghuWrsDThq9/elh5eSstxkyLscaR+zu5XuWsLZ4ZVvjkCm66IGICgLC23nbHlcJZ2prY5TR2SqyxOEw2Bfy8DH2UqFoeJqUaL9/B8dclnwzl+KFOPRy4ZnKN0xCV0h2OJJHSj0kBXc0GQXVlakl3kyKEd93poyj5tlapuVWMHFixtnb+MWMl8vxZvLfn/F2MT7knK2RFiRP8kbtFp8P9CiJathwVSqDy8exW4yrhbaqQvEtYKjd5UWktkucThaI2knCluBU4nU30mE3k3JbHFe1VAp+P0bEgT7MMNqz17pZJMO2yGkljqlrulGlWp9uIzr00Hsriuv2lHKeHspafaJvGtY47hT1u/788V32Jh5BOvIeIzF0O4ehyKhTU3tyGeeg081cee9lVhS9LXla/L4zTwCO8zlEtBjR2dz1wvVmIRozZ/vr/J837SGanf2X3Inw7UZ0vRS9+OWfu80FPOABD3jAAx7w/4x3m+1qOOzqr+12NVxcC8a8X3zC+8ZHvH/8gV8DV/w6uOTXwsVE/739Afx7HlnHMP7YAAAAAElFTkSuQmCC"
+                                    style="border-radius: 10px;" alt="Collection"></a>
+                            <h5>Collection</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://artsandculture.google.com/"><img style="border-radius: 10px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXz0DE-8UNyAB7ZB2LbuGfB6478pF2tXzvA&usqp=CAU"
+                                    alt="Arts and Culture"></a>
+                            <h5>Arts and <br> Culture</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://ads.google.com/home/"><img
+                                    src="https://yt3.googleusercontent.com/ytc/AL5GRJUxMZixlbyTiUAv3ujRFMq_1vf2ij2Qff_-7FeD7g=s900-c-k-c0x00ffffff-no-rj"
+                                    alt="Ads"></a>
+                            <h5>Ads</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://podcasts.google.com/"><img src="https://ssl.gstatic.com/images/branding/product/1x/podcasts_512dp.png"
+                                    alt="Podcasts"></a>
+                            <h5>Podcasts</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://one.google.com/about"><img
+                                    src="https://play-lh.googleusercontent.com/DGAleS46qOedNzJGsB3e29QLpL6Qi6EwIDze95nBvxMAMGEmbE6KOW__2haEkHVDs4Y"
+                                    alt="One"></a>
+                            <h5>One</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/travel/"><img src="https://ssl.gstatic.com/travel-frontend/images/travel_logo_200.png" alt="Travel"></a>
+                            <h5>Travel</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://www.google.com/forms/about/"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968528.png" alt="Form"></a>
+                            <h5>Form</h5>
+                        </div>
+
+                        <div class="app">
+                            <a href="https://store.google.com/in/?hl=en-GB"><img style="border-radius:100%" src="https://shop.googlemerchandisestore.com/store/20160512512/assets/items/largeimages/GGOEGBTQ126133.jpg" alt="Store"></a>
+                            <h5>Store</h5>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="from-google">
+                        <a href="https://about.google/products/">More From Google</a>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <script src="googlescript.js"></script>
+</body>
+
+</html>
