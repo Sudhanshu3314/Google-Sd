@@ -1,0 +1,202 @@
+nav ul li {
+	list-style: none;
+	margin: 0px 9px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+nav {
+	margin: 10px 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.material-symbols-outlined {
+	font-size: 30px;
+	color: rgb(128, 128, 128);
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+img[alt="Sudhanshu photos"] {
+	width: 50px;
+	height: 50px;
+	transition: all 1s;
+	border-radius: 100%;
+}
+
+img[alt="Sudhanshu photos"]:hover {
+	box-shadow: 0px 0px 10px 0.1px black;
+}
+
+img {
+	cursor: pointer;
+}
+
+div span {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+}
+
+.red {
+	color: rgb(234, 67, 53);
+}
+
+.blue {
+	color: rgb(66, 133, 244);
+}
+
+.orange {
+	color: rgb(251, 188, 5);
+}
+
+.green {
+	color: rgb(52, 168, 83);
+}
+
+.symbol {
+	text-align: center;
+	padding: 0px 20px;
+	font-size: 100px;
+	margin-bottom: 90px;
+}
+
+.googlesym {
+	width: 20px;
+	height: 20px;
+}
+
+.SearchBar {
+	display: flex;
+	align-items: center;
+	width: 430px;
+	justify-content: center;
+	margin: 0px 23px;
+	box-shadow: 0px 0px 1px 0.1px black;
+	padding: 0px 5px 3px;
+	border-radius: 100px;
+	margin-bottom: 90px;
+	transition: all 0.3s;
+}
+
+.SearchBar:hover {
+	box-shadow: 0px 0px 7px 0.3px black;
+}
+
+.googleSearch {
+	margin: -60px 0px 25px;
+}
+
+.googleImg {
+	padding: 5px 10px;
+}
+
+input[type="search"] {
+	width: 106%;
+	font-size: 25px;
+	outline: none;
+	height: 30px;
+}
+
+.btn button {
+	box-shadow: 0px 0px 1px 0.01px black;
+	font-size: 16px;
+	margin: 10px;
+	border: none;
+	padding: 10px;
+	transition: all 0.4s;
+}
+
+.btn button:hover {
+	box-shadow: 0px 0px 5px 0.2px black;
+}
+
+.btn {
+	position: relative;
+	display: block;
+	margin: auto;
+	bottom: 80px;
+}
+
+.lang {
+	font-size: 13px;
+	position: relative;
+	bottom: 70px;
+}
+
+.lang a {
+	text-decoration: none;
+	margin: 0px 5px;
+	font-size: 13px;
+}
+
+.lang a:hover {
+	text-decoration: underline;
+}
+
+.app img {
+	width: 65px;
+	height: 65px;
+}
+
+.app h5 {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.google-app {
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 12px;
+}
+
+.from-google a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+}
+.from-google{
+    text-align: center;
+    box-shadow: 0px 0px 3px 0.5px blue;
+    transition: all 0.5s;
+    margin: 0px 100px;
+    border-radius: 5px;
+}
+.from-google:hover{
+    box-shadow: 0px 0px 6px 1px blue;
+}
+
+@media (max-width: 500px) {
+	.symbol {
+		font-size: 70px;
+	}
+
+	.SearchBar {
+		width: 310px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.btn button {
+		font-size: 12px;
+		padding: 7px;
+	}
+
+	center {
+		margin: 0px 20px;
+	}
+}
