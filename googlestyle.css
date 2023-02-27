@@ -5,6 +5,13 @@ nav ul li {
 	font-weight: bold;
 }
 
+body{
+	background-image:  url("https://images.pexels.com/photos/66284/winter-nature-season-trees-66284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 nav {
 	margin: 10px 20px;
 }
@@ -85,14 +92,17 @@ div span {
 	width: 430px;
 	justify-content: center;
 	margin: 0px 23px;
+	background-color: white;
 	box-shadow: 0px 0px 1px 0.1px black;
 	padding: 0px 5px 3px;
 	border-radius: 100px;
 	margin-bottom: 90px;
 	transition: all 0.3s;
+	border: 1px solid black;
 }
 
 .SearchBar:hover {
+	border: none;
 	box-shadow: 0px 0px 7px 0.3px black;
 }
 
@@ -126,8 +136,8 @@ input[type="search"] {
 
 .btn {
 	position: relative;
-	display: flex;
-	justify-content: center;
+	display: block;
+	margin: auto;
 	bottom: 80px;
 }
 
@@ -164,25 +174,80 @@ input[type="search"] {
 	grid-row-gap: 12px;
 }
 
-.from-google a{
-    color: blue;
-    text-decoration: none;
-    font-size: 25px;
+.from-google a {
+	color: blue;
+	text-decoration: none;
+	font-size: 25px;
 }
-.from-google{
-    text-align: center;
-    box-shadow: 0px 0px 3px 0.5px blue;
-    transition: all 0.5s;
-    margin: 0px 100px;
-    border-radius: 5px;
+
+.from-google {
+	text-align: center;
+	box-shadow: 0px 0px 3px 0.5px blue;
+	transition: all 0.5s;
+	margin: 0px 100px;
+	border-radius: 5px;
 }
-.from-google:hover{
-    box-shadow: 0px 0px 6px 1px blue;
+
+.from-google:hover {
+	box-shadow: 0px 0px 6px 1px blue;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	box-shadow: 0px 0px 5px 0.5px black;
+	border-radius: 100%;
+	transition: all 0.5s;
+}
+
+.icon:hover {
+	box-shadow: 0px 0px 10px 2.5px black;
+}
+
+.appWeb .app {
+	text-align: center;
+}
+
+.appWeb .app h6 {
+	font-weight: bold;
+	margin: 5px;
+}
+
+.appWeb {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 80px 80px 80px 80px 80px;
+	grid-gap: 16px 40px;
+	margin-top: -45px;
+}
+@media (max-width:1000px) and (min-width:750px) {
+	body{
+		background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	}
+}
+
+@media (min-width: 500px) and (max-width: 750px) {
+	.appWeb {
+		grid-template-columns: 80px 80px 80px 80px;
+		grid-gap: 10px 40px;
+		margin-top: -40px;
+	}
+	body{
+		background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	}
+
+	.icon {
+		width: 30px;
+		height: 30px;
+	}
 }
 
 @media (max-width: 500px) {
 	.symbol {
 		font-size: 70px;
+	}
+	body{
+		background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 	}
 
 	.SearchBar {
@@ -200,10 +265,22 @@ input[type="search"] {
 		margin: 0px 20px;
 	}
 
-	.from-google{
+	.from-google {
 		margin: 0px 40px;
 	}
-	.from-google a{
+
+	.from-google a {
 		font-size: 19px;
+	}
+
+	.appWeb {
+		grid-template-columns: 80px 80px;
+		grid-gap: 10px 40px;
+		margin-top: -40px;
+	}
+
+	.icon {
+		width: 10px;
+		height: 10px;
 	}
 }
